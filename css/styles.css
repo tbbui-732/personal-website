@@ -1,0 +1,73 @@
+/* Importing "Inter" font */
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+
+/* Color Palette */
+:root {
+    --pastelred: #FFB3B3;
+    --pastelorange: #FFDBA4;
+    --pastelyellow: #FFE9AE;
+    --pastelblue: #C1EFFF;
+    --hotpink: #FFA4D2;
+}
+
+body { background-color: var(--pastelyellow); }
+
+.introduction {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Positioning introduction container */
+.intro-container {
+    width: 41em;
+    height: 32em; 
+    border: 10px;
+    /* border-style: solid; */
+    /* border-color: magenta; */
+
+    position: absolute; 
+    top: 20%;
+}
+
+/* Styling introduction */
+#hello {
+    font-style: italic; 
+    font-weight: 230;
+    font-size: 60px;
+
+    position: relative;
+    top: 1.5em;
+    left: 2em;
+
+    color: var(--pastelred);
+}
+
+#im {
+    font-style: italic; 
+    font-weight: 230;
+    font-size: 60px;
+
+    position: relative; 
+    top: 0.6em;
+    left: 2em;
+
+    color: var(--pastelred);
+}
+
+#bao-bui {
+    font-weight: bolder;
+    font-size: 120px;
+
+    position: relative; 
+    bottom: 0.6em;
+    left: 0.95em;
+
+    color: var(--pastelblue);
+
+    text-shadow: 5px 5px var(--pastelred);
+}
