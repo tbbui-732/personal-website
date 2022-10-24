@@ -1,0 +1,31 @@
+/* Font */
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+/* Main Introduction */
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10px;
+    width: 350px;
+    left: 50%;
+
+    position: relative; 
+    left: 33%;
+    top: 200px;
+
+}
+
+.large-text {
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 55px;
+    list-style: none;
+    text-shadow: 2px 2px #FFD1D1;
+}
+
