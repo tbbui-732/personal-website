@@ -1,8 +1,7 @@
 A small portfolio website that details...
-    - My professional experiences (... eventually) 
+    - My professional experiences
     - Academics
     - Personal projects
-    - Maybe a blog too, why not
 
 Tech stack so far: 
     Runtime: NodeJS
